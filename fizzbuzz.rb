@@ -1,4 +1,4 @@
-100.times do |i|
+(1..100).each do |i|
 	if (i % 3 == 0 && i % 5 == 0) then
 		puts "FizzBuzz\n"
 	elsif (i % 3 == 0) then
