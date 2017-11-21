@@ -1,11 +1,11 @@
 100.times {|i|
 	if (i % 3 == 0 && i % 5 == 0) then
-		printf("FizzBuzz\n")
+		puts "FizzBuzz\n"
 	else if (i % 3 == 0) then
-		printf("Fizz\n")
+		puts "Fizz\n"
 	else if (i % 5 == 0) then
-		printf("Buzz\n")
+		puts "Buzz\n"
 	else 
-		printf("%d\n", i)
+		puts i
 	end
 }
