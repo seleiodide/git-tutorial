@@ -7,4 +7,5 @@
 		printf("Buzz\n")
 	else 
 		printf("%d\n", i)
+	end
 }
